@@ -9,7 +9,7 @@ import com.rpm.rpmsqlite.databinding.ActivityLoginBinding
 class Login : AppCompatActivity() {
     private lateinit var binding: ActivityLoginBinding
     private val manager = ManagerDb(this)
-
+//commit test
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityLoginBinding.inflate(layoutInflater)
